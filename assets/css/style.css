@@ -456,7 +456,7 @@ h6 {
 
 #hero .intro-info .btn-get-started:hover,
 #hero .intro-info .btn-services:hover {
-  background: #0a98c0;
+  background: #607274;
 }
 
 /*--------------------------------------------------------------
@@ -860,7 +860,7 @@ section {
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
-  background: #42c3e8;
+  background: #607274;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
@@ -869,7 +869,7 @@ section {
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover {
-  background: #282646;
+  background: #607274;
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
@@ -1170,7 +1170,7 @@ section {
 }
 
 #pricing .card .btn:hover {
-  background: #0a98c0;
+  background: #607274;
 }
 
 /* Frequently Asked Questions Section
