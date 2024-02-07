@@ -1201,6 +1201,9 @@ section {
   background: #607274;
 }
 
+#donasi .card{
+  border-right: 1px solid #B2A59B;
+}
 /* Frequently Asked Questions Section
 --------------------------------*/
 #faq {
