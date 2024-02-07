@@ -1160,7 +1160,7 @@ section {
 }
 
 #pricing .card h3 {
-  font-size: 64px;
+  font-size: 48px;
   margin-bottom: 0px;
   color: #535074;
 }
@@ -1200,7 +1200,12 @@ section {
 #pricing .card .btn:hover {
   background: #607274;
 }
-
+.modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
 #donasi .card{
   border-right: 1px solid #B2A59B;
 }
