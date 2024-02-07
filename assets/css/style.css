@@ -508,6 +508,9 @@ section {
   background: #fcf6ea;
 }
 
+.section-beda{
+  background:#f5f8fd url("../img/Samira\ hadid.png") center top no-repeat;
+}
 /* About Us Section
 --------------------------------*/
 #about {
