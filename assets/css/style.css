@@ -1164,7 +1164,10 @@ section {
   margin-bottom: 0px;
   color: #535074;
 }
-
+.small-img {
+  max-width: 100px; 
+  height: auto; 
+}
 #pricing .card h3 .currency {
   font-size: 30px;
   position: relative;
