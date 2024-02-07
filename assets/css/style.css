@@ -446,7 +446,7 @@ h6 {
 }
 
 #hero .intro-info .btn-get-started,
-#hero .intro-info .btn-services {
+#hero .intro-info .btn-services , .btn-get-started{
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
   font-weight: 600;
@@ -462,10 +462,13 @@ h6 {
 }
 
 #hero .intro-info .btn-get-started:hover,
-#hero .intro-info .btn-services:hover {
+#hero .intro-info .btn-services:hover ,.btn-get-started:hover{
   background: #607274;
 }
 
+.btn-get-started:hover{
+  color: white;
+}
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
