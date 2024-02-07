@@ -460,12 +460,27 @@ h6 {
   background: #B2A59B;
   color: #fff;
 }
-
+.btn-get-started2{
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #607274;
+  color: #fff;
+}
 #hero .intro-info .btn-get-started:hover,
 #hero .intro-info .btn-services:hover ,.btn-get-started:hover{
   background: #607274;
 }
-
+.btn-get-started2:hover{
+  background: #B2A59B;
+}
 .btn-get-started:hover{
   color: white;
 }
@@ -1075,17 +1090,17 @@ section {
 
 /* Pricing Section
 --------------------------------*/
-#pricing {
+#pricing ,#donasi{
   padding: 80px 0;
 }
 
 @media (max-width: 991px) {
-  #pricing {
+  #pricing , #donasi{
     padding-bottom: 30px;
   }
 }
 
-#pricing .card {
+#pricing .card , #donasi .card{
   border: 0;
   border-radius: 0px;
   box-shadow: 0 3px 0px 0 rgba(65, 62, 102, 0.08);
@@ -1095,12 +1110,12 @@ section {
 }
 
 @media (max-width: 991px) {
-  #pricing .card {
+  #pricing .card,#donasi .card {
     margin-bottom: 50px;
   }
 }
 
-#pricing .card:after {
+#pricing .card:after ,#donasi .card:after{
   content: "";
   position: absolute;
   top: 0;
@@ -1111,7 +1126,7 @@ section {
   transition: 0.5s;
 }
 
-#pricing .card:hover {
+#pricing .card:hover, #donasi .card:hover{
   transform: scale(1.05);
   box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
 }
@@ -1127,7 +1142,7 @@ section {
   text-align-last: center;
 }
 
-#pricing .card .card-title {
+#pricing .card .card-title ,#donasi .card .card-title{
   margin-bottom: 16px;
   color: #535074;
 }
