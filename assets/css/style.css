@@ -398,12 +398,13 @@ h6 {
   background-size: cover;
   padding-top: 100px;
 }
+
 .intro-img {
   max-width: 1121px;
   max-height: 852px;
-  display: block;
   margin: 0 auto 0 0;
 }
+
 
 @media (max-width: 991px) {
   #hero {
@@ -420,12 +421,6 @@ h6 {
   }
 }
 
-.centered-img {
-  max-width: 1121px;
-  max-height: 852px;
-  display: block;
-  margin: 0 auto 0 0;
-}
 
 @media (min-width: 992px) {
   #hero .intro-info {
